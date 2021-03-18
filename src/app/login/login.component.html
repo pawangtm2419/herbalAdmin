@@ -1,0 +1,17 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <form (submit)="getUserData($event)">
+        <mat-form-field>
+          <mat-label>User Name</mat-label>
+          <input matInput type="text" id="username" placeholder="Enter User ID...">
+        </mat-form-field><br>
+        <mat-form-field>
+          <mat-label>Password</mat-label>
+          <input matInput type="password" id="password" placeholder="Enter Password...">
+        </mat-form-field><br>
+        <button mat-raised-button>Submit</button>
+      </form>
+    </div>
+  </div>
+</section>

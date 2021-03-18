@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+table {
+    width: 100%;
+    overflow:auto;
+}
+.mat-column-select {
+    overflow: visible;
+}
+form, mat-form-field, mat-expansion-panel, mat-accordion {
+    width: 100%;
+}
+.mat-raised-button {
+    width: 100%;
+}
+section {
+    padding: 0 15px;
+}
+.heading{
+    background-color: #3f51b5bd;
+    color: #fff;
+}
+th.mat-header-cell {
+    padding: 0 18px!important;
+    color: #fff;
+    background: #3f51b5b8!important;
+    text-align: center;
+}
+td.mat-cell {
+    padding: 15px;
+    padding-left: 15px!important;
+    border-bottom: 1px solid #3f51b5b8;
+}
+.spacer {
+    flex: 1 1 auto;
+}

@@ -1,0 +1,57 @@
+<section>
+    <div class="container-fluid">
+      <div class="row">
+        <mat-accordion>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>Add New Category</mat-panel-title>
+              <mat-panel-description></mat-panel-description>
+            </mat-expansion-panel-header> <hr>
+            <form [formGroup]="categoryForm" (ngSubmit)="categoryForm.valid && setCategoryData($event)" novalidate>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-10">
+                    <mat-form-field>
+                      <mat-label>Category Name</mat-label>
+                      <input matInput type="text" id="categoryname" formControlName="categoryname" [(ngModel)]="category.categoryname" placeholder="Enter Category Name...">
+                      <mat-error *ngIf="categoryForm.get('categoryname').hasError('required')">Input must be Required. </mat-error>
+                      <mat-error *ngIf="categoryForm.get('categoryname').hasError('maxlength')">Input must be 100 Digits. </mat-error>
+                    </mat-form-field><br>
+                  </div>
+                  <div class="col-md-2">
+                    <button type="submit" mat-raised-button>Submit</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+      <div class="row mt-4">
+        <table mat-table [dataSource]="categorydata" class="mat-elevation-z8">
+          <ng-container matColumnDef="id">
+            <th mat-header-cell *matHeaderCellDef> No. </th>
+            <td mat-cell *matCellDef="let i = index;"> {{i+1}} </td>
+          </ng-container>
+          <ng-container matColumnDef="catename">
+            <th mat-header-cell *matHeaderCellDef> Category Name </th>
+            <td mat-cell *matCellDef="let element"> {{element.catename}} </td>
+          </ng-container>
+          <ng-container matColumnDef="timestamp">
+            <th mat-header-cell *matHeaderCellDef> Added Time </th>
+            <td mat-cell *matCellDef="let element"> {{element.timestamp}} </td>
+          </ng-container>
+          <ng-container matColumnDef="edit">
+            <th mat-header-cell *matHeaderCellDef> EDIT </th>
+            <td mat-cell *matCellDef="let element"><button mat-button (click)="catrgoryedit(element.cid)">Edit</button></td>
+          </ng-container>
+          <ng-container matColumnDef="delete">
+            <th mat-header-cell *matHeaderCellDef> DELETE </th>
+            <td mat-cell *matCellDef="let element"><button mat-button (click)="categorydelete(element.cid)">Delete</button></td>
+          </ng-container>
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+      </div>
+    </div>
+</section>

@@ -1,0 +1,58 @@
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <table mat-table [dataSource]="userdata" class="mat-elevation-z8">
+                <ng-container matColumnDef="id">
+                  <th mat-header-cell *matHeaderCellDef> No. </th>
+                  <td mat-cell *matCellDef="let i = index;"> {{i+1}} </td>
+                </ng-container>
+                <ng-container matColumnDef="username">
+                  <th mat-header-cell *matHeaderCellDef> Name </th>
+                  <td mat-cell *matCellDef="let element"> {{element.username}} </td>
+                </ng-container>
+                <ng-container matColumnDef="unumber">
+                    <th mat-header-cell *matHeaderCellDef> Mobile_Number </th>
+                    <td mat-cell *matCellDef="let element"> {{element.unumber}} </td>
+                </ng-container>
+                <ng-container matColumnDef="umail">
+                  <th mat-header-cell *matHeaderCellDef> Email_ID </th>
+                  <td mat-cell *matCellDef="let element"> {{element.umail}} </td>
+                </ng-container>
+                <ng-container matColumnDef="upasswurd">
+                  <th mat-header-cell *matHeaderCellDef> upasswurd </th>
+                  <td mat-cell *matCellDef="let element"> {{element.upasswurd}} </td>
+                </ng-container>
+                <ng-container matColumnDef="ustreat">
+                    <th mat-header-cell *matHeaderCellDef> ustreat </th>
+                    <td mat-cell *matCellDef="let element"> {{element.ustreat}} </td>
+                </ng-container>
+                <ng-container matColumnDef="uadd1">
+                    <th mat-header-cell *matHeaderCellDef> uadd1 </th>
+                    <td mat-cell *matCellDef="let element"> {{element.uadd1}} </td>
+                </ng-container>
+                <ng-container matColumnDef="uadd2">
+                    <th mat-header-cell *matHeaderCellDef> uadd2 </th>
+                    <td mat-cell *matCellDef="let element"> {{element.uadd2}} </td>
+                </ng-container>
+                <ng-container matColumnDef="uaddpincode">
+                    <th mat-header-cell *matHeaderCellDef> uaddpincode </th>
+                    <td mat-cell *matCellDef="let element"> {{element.uaddpincode}} </td>
+                </ng-container>
+                <ng-container matColumnDef="uaddnearby">
+                    <th mat-header-cell *matHeaderCellDef> uaddnearby </th>
+                    <td mat-cell *matCellDef="let element"> {{element.uaddnearby}} </td>
+                </ng-container>
+                <ng-container matColumnDef="timestamp">
+                  <th mat-header-cell *matHeaderCellDef> TimeStamp </th>
+                  <td mat-cell *matCellDef="let element"> {{element.timestamp}} </td>
+                </ng-container>
+                <ng-container matColumnDef="uactive">
+                    <th mat-header-cell *matHeaderCellDef> Active </th>
+                    <td mat-cell *matCellDef="let element"> {{element.uactive}} </td>
+                  </ng-container>
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+        </div>
+    </div>
+</section>

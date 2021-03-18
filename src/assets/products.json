@@ -1,0 +1,112 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "pname": "Ashwgandha Capsule",
+            "purl": "/ashwagandha-capsules",
+            "pcategory": "Capsule",
+            "pimage": "./assets/product/ashwagandha/ashwagadha-1.png",
+            "pbanner": "./assets/product/ashwagandha/ashwagandha-capsules-banner.png",
+            "pdetail": "Ashwagandha is an evergreen shrub that grows in India, the Middle East, and parts of Africa. Its roots and orange-red fruit have been used for hundreds of years for medicinal purposes. The herb is also called Indian ginseng or winter cherry.",
+            "pmrp": "735",
+            "puse": "",
+            "psku": ""
+        },
+        {
+            "id": "2",
+            "pname": "Chetan Capsule",
+            "purl": "/chetan-capsule",
+            "pcategory": "Capsule",
+            "pimage": "./assets/product/chetan-capsule/chetan-capsule.png",
+            "pbanner": "./assets/product/chetan-capsule/chetan-capsule-banner.png",
+            "pdetail": "Chetan Herbal Capsule is deliver in a air tight and frosted cap packaging as to give proper protection from harsh weather conditions. It is made with a superior quality of herbs and ingredients which is supervised by our deft personnel.",
+            "pmrp": "525",
+            "puse": "",
+            "psku": ""
+        },
+        {
+            "id": "3",
+            "pname": "Chetan Tila",
+            "purl": "/chetan-tila",
+            "pcategory": "Oil",
+            "pimage": "./assets/product/chetan-tila/chetan-tila.png",
+            "pbanner": "./assets/product/chetan-tila/chetan-tila-banner.png",
+            "pdetail": "In the present time as the demand is increasing for the new formula based capsule related to the sex power are really attracting the users to employ and get benefits. There are plenty of the different brands and flavors of these capsules are heading the entire market on the aim in enhancing the sex performance on bed.",
+            "pmrp": "525",
+            "puse": "",
+            "psku": ""
+        },
+        {
+            "id": "4",
+            "pname": "Sehat Prash",
+            "purl": "/sehat-prash",
+            "pcategory": "Capsule",
+            "pimage": "./assets/product/sehat-prash/sehat-prash.png",
+            "pbanner": "./assets/product/sehat-prash/sehat-prash-banner.jpg",
+            "pdetail": "When god create the world, then men invent to many things but he still unable to get all pursue happiness in his life. So God Dhanvantri introduce ayurveda to men for healthy and happy life.",
+            "pmrp": "735",
+            "puse": "",
+            "psku": ""
+        },
+        {
+            "id": "5",
+            "pname": "Dard Mochak",
+            "purl": "/dard-mochak",
+            "pcategory": "Oil",
+            "pimage": "./assets/product/dard-mochak/dard-mochak.png",
+            "pbanner": "./assets/product/dard-mochak/Dard-mochak-banner.png",
+            "pdetail": "Dardmochak Oil and Capsules are the blend of Ayurvedic herbs which contain anti-inflammatory molecules and deliver broad spectrum of benefits in relieving from various pain conditions like – Joint Pain, Back Pain, Muscle Pain, Knee Pain, Elbow Pain, Shoulder Pain, Knee Pain, Leg Pain.",
+            "pmrp": "525",
+            "puse": "",
+            "psku": ""
+        },
+        {
+            "id": "6",
+            "pname": "Mha Mochak",
+            "purl": "/mha-mochak",
+            "pcategory": "Oil",
+            "pimage": "./assets/product/mha-mochak/mha-mochak.png",
+            "pbanner": "./assets/product/mha-mochak/mha-mochak-banner.png",
+            "pdetail": "Mha Mochak Oil an Capsules are the blend of Ayurvedic herbs which contain anti-inflammatory molecules and deliver broad spectrum of benefits in relieving from various pain conditions like – Joint Pain, Back Pain, Muscle Pain, Knee Pain, Elbow Pain, Shoulder Pain, Knee Pain, Leg Pain.",
+            "pmrp": "525",
+            "puse": "",
+            "psku": ""
+        },
+        {
+            "id": "7",
+            "pname": "Triphla Churn",
+            "purl": "/triphla-churn",
+            "pcategory": "Power",
+            "pimage": "./assets/product/triphla-churn/triphla-churn.png",
+            "pbanner": "./assets/product/triphla-churn/triphla-churn-banner.png",
+            "pdetail": "Triphla Churna is an ayurvedic p, beneficial in vision related troubles, constipation and stomach problems. Base, salt and acid mixed powder is warm in nature, digestible, tasteful and ignites hunger.",
+            "pmrp": "525",
+            "puse": "",
+            "psku": ""
+        },
+        {
+            "id": "8",
+            "pname": "Truliv",
+            "purl": "/truliv",
+            "pcategory": "Power",
+            "pimage": "./assets/product/truliv/truliv.png",
+            "pbanner": "./assets/product/truliv/truliv-banner.png",
+            "pdetail": "You may have a headache, dizziness, nausea, and constipation as side effects of this medicine. These are usually temporary and resolves on its own, but please consult your doctor if it bothers you or persists for a longer duration.",
+            "pmrp": "735",
+            "puse": "",
+            "psku": ""
+        },
+        {
+            "id": "9",
+            "pname": "Shilajit Prash",
+            "purl": "/shilajit-prash",
+            "pcategory": "Box",
+            "pimage": "./assets/product/shilajit-prash/shilajit-prash-1.png",
+            "pbanner": "./assets/product/shilajit-prash/shilajit-prash-banner.png",
+            "pdetail": "Shilajit is a sticky substance found primarily in the rocks of the Himalayas. It develops over centuries from the slow decomposition of plants. Shilajit is commonly used in ayurvedic medicine. It’s an effective and safe supplement that can have a positive effect on your overall health and well-being.",
+            "pmrp": "900",
+            "puse": "",
+            "psku": ""
+        }
+    ]
+}

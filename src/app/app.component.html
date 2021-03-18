@@ -1,0 +1,37 @@
+<mat-sidenav-container fullscreen>
+    <mat-sidenav #sidenav mode="side" position="start">
+        <mat-nav-list>
+            <h4 routerLink="/" (click)="sidenav.toggle()" routerLinkActive="active" mat-list-item>Chetan Herbals | Admin</h4><hr>
+            <a *ngIf="getLoginVerify()" (click)="sidenav.toggle()" mat-list-item routerLink="/enquiry" routerLinkActive="active"><mat-icon></mat-icon> Enquiry</a>
+            <a *ngIf="getLoginVerify()" (click)="sidenav.toggle()" mat-list-item routerLink="/wish" routerLinkActive="active"><mat-icon></mat-icon> Wish </a>
+            <a *ngIf="getLoginVerify()" (click)="sidenav.toggle()" mat-list-item routerLink="/patient" routerLinkActive="active"><mat-icon></mat-icon> Patient</a>
+            <a *ngIf="getLoginVerify()" (click)="sidenav.toggle()" mat-list-item routerLink="/product" routerLinkActive="active"><mat-icon></mat-icon> Product</a>
+            <a *ngIf="getLoginVerify()" (click)="sidenav.toggle()" mat-list-item routerLink="/category" routerLinkActive="active"><mat-icon></mat-icon> Category</a>
+            <a *ngIf="getLoginVerify()" (click)="sidenav.toggle()" mat-list-item routerLink="/blog" routerLinkActive="active"><mat-icon></mat-icon> Blog</a>
+            <a *ngIf="getLoginVerify()" (click)="service.getLogOut()" (click)="sidenav.toggle()" mat-list-item><mat-icon></mat-icon> Log Out</a>
+            <a *ngIf="!getLoginVerify()" (click)="sidenav.toggle()" routerLink="/login" routerLinkActive="active" mat-list-item><mat-icon></mat-icon> Log in</a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <mat-toolbar color="primary" class="sticky-top">
+            <mat-toolbar-row>
+                <button *ngIf="getLoginVerify()" mat-icon-button (click)="sidenav.toggle()"><mat-icon>menu</mat-icon></button>
+                <a *ngIf="!getLoginVerify()" routerLink="/" routerLinkActive="active" mat-button>Chetan Herbals | Admin</a>
+                <button *ngIf="getLoginVerify()" mat-button routerLink="/enquiry" routerLinkActive="active"><mat-icon>home</mat-icon> Dashboard</button>
+                <span class="spacer"></span>
+                <button *ngIf="getLoginVerify()" mat-button routerLink="/enquiry" routerLinkActive="active">Enquiry</button>
+                <button *ngIf="getLoginVerify()"  mat-button routerLink="/wish" routerLinkActive="active">Wish</button>
+                <button *ngIf="getLoginVerify()"  mat-button routerLink="/patient" routerLinkActive="active">Patient</button>
+                <button *ngIf="getLoginVerify()"  mat-button routerLink="/product" routerLinkActive="active">Product</button>
+                <button *ngIf="getLoginVerify()"  mat-button routerLink="/category" routerLinkActive="active">Category</button>
+                <button *ngIf="getLoginVerify()"  mat-button routerLink="/blog" routerLinkActive="active">Blog</button>
+                <button *ngIf="getLoginVerify()" (click)="service.getLogOut()"  mat-button><mat-icon>power_settings_new</mat-icon> Log Out</button>
+                <button *ngIf="!getLoginVerify()" routerLink="/login" routerLinkActive="active" mat-button><mat-icon>person</mat-icon> Log in</button>
+            </mat-toolbar-row>
+        </mat-toolbar>
+        <main class="content">
+            <router-outlet></router-outlet>
+        </main>
+        <app-footer></app-footer>
+    </mat-sidenav-content>
+</mat-sidenav-container>

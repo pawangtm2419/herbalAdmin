@@ -1,0 +1,50 @@
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <table mat-table [dataSource]="products" class="mat-elevation-z8">
+                <ng-container matColumnDef="id">
+                  <th mat-header-cell *matHeaderCellDef> No. </th>
+                  <td mat-cell *matCellDef="let i = index;"> {{i+1}} </td>
+                </ng-container>
+                <ng-container matColumnDef="pname">
+                  <th mat-header-cell *matHeaderCellDef> Name </th>
+                  <td mat-cell *matCellDef="let element"> {{element.pname}} </td>
+                </ng-container>
+                <ng-container matColumnDef="purl">
+                  <th mat-header-cell *matHeaderCellDef> Email_ID </th>
+                  <td mat-cell *matCellDef="let element"> {{element.purl}} </td>
+                </ng-container>
+                <ng-container matColumnDef="pcategory">
+                  <th mat-header-cell *matHeaderCellDef> Mobile_Number </th>
+                  <td mat-cell *matCellDef="let element"> {{element.pcategory}} </td>
+                </ng-container>
+                <ng-container matColumnDef="pimage">
+                  <th mat-header-cell *matHeaderCellDef> Disease/Question </th>
+                  <td mat-cell *matCellDef="let element"> {{element.pimage}} </td>
+                </ng-container>
+                <ng-container matColumnDef="pbanner">
+                  <th mat-header-cell *matHeaderCellDef> TimeStamp </th>
+                  <td mat-cell *matCellDef="let element"> {{element.pbanner}} </td>
+                </ng-container>
+                <ng-container matColumnDef="pdetail">
+                    <th mat-header-cell *matHeaderCellDef> TimeStamp </th>
+                    <td mat-cell *matCellDef="let element"> {{element.pdetail}} </td>
+                </ng-container>
+                <ng-container matColumnDef="pmrp">
+                    <th mat-header-cell *matHeaderCellDef> TimeStamp </th>
+                    <td mat-cell *matCellDef="let element"> {{element.pmrp}} </td>
+                </ng-container>
+                <ng-container matColumnDef="puse">
+                    <th mat-header-cell *matHeaderCellDef> TimeStamp </th>
+                    <td mat-cell *matCellDef="let element"> {{element.puse}} </td>
+                </ng-container>
+                <ng-container matColumnDef="psku">
+                    <th mat-header-cell *matHeaderCellDef> TimeStamp </th>
+                    <td mat-cell *matCellDef="let element"> {{element.psku}} </td>
+                </ng-container>
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+              </table>
+        </div>
+    </div>
+  </section>

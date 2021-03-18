@@ -1,0 +1,95 @@
+{
+    "diseases": [
+        {
+            "id": "1",
+            "dname": "Diabetes",
+            "durl": "/diabetes",
+            "dimage": "./assets/disease/diabetes-banner.png",
+            "ddetail": "Diabetes Mellitus is a Chronic Metabolic illness in which the body is powerless to make proper use of glucose, resulting in the condition of hyperglycemia (high blood sugar). Excess glucose in the blood ultimately results in high levels of glucose being present in the urine (glycosuria). This increases the urine output, which leads to dehydration and increased thirst. Chetan Herbals provide best Ayurvedic Treatment for Diabetes in Many countries in the world…"
+        },
+        {
+            "id": "2",
+            "dname": "Fat Loss",
+            "durl": "/fat-loss",
+            "dimage": "./assets/disease/disease-5.png",
+            "ddetail": "The same number of experience the ill effects of excessively as excessively little’ subsequently said Christian nestell bovee. He for sure comprehended that excessively’ can likewise prompt enduring. Extreme and unusual gathering of fat displays a genuine danger to wellbeing and is restoratively termed as Obesity."
+        },
+        {
+            "id": "3",
+            "dname": "Hair Lose",
+            "durl": "/hair-lose",
+            "dimage": "./assets/disease/hair-loss-banner.png",
+            "ddetail": "Hair drops out in little fixes leaving uncovered spots about the extent of a little coin. Alopecia areata is loss of hair in patches. In spite of the fact that it can influence any hair-bearing zone of the body, the term for the most part suggests inconstant male pattern baldness from the scalp. The condition, however it is generous as a rule, can result in gigantic enthusiastic and psychosocial stretch in influenced patients. Naturapathy can successfully and securely ease the patients from this condition when settled on at the perfect time. At Chetan Herbals we have the experience and aptitude in alopecia areata treatment in the course of the most recent 25 years in giving great alleviation to countless."
+        },
+        {
+            "id": "4",
+            "dname": "Always be Active",
+            "durl": "/always-be-active",
+            "dimage": "./assets/disease/disease-16.jpg",
+            "ddetail": "Make getting fit enjoyable. Choose activities that suit your lifestyle. Check out local exercise options. Make exercise a social event. Plan ahead for bad weather. Keep some exercise equipment at home. Have fun getting physical Get active around the house."
+        },
+        {
+            "id": "5",
+            "dname": "Height Up",
+            "durl": "/height-up",
+            "dimage": "./assets/disease/height-up-banner.png",
+            "ddetail": "More Growth contains many ancient herbs and ingredients which are very useful to increase height and also works on various biological processes to fight against numerous general problems. An example of powerful ingredient is Ashwagandha which will help the body to cope with daily stress and improves the brain memory function."
+        },
+        {
+            "id": "6",
+            "dname": "Increase Breast",
+            "durl": "/increase-breast",
+            "dimage": "./assets/disease/disease-10.png",
+            "ddetail": "Whether you’ve always dreamed of having fuller, larger breasts, or perhaps your breasts have become lax due to breastfeeding, weight loss, or aging and you would like to restore shape and fullness to your breasts, you’ll be happy to know that there is medicine to increase breast size without side effects…"
+        },
+        {
+            "id": "7",
+            "dname": "Joint Pain",
+            "durl": "/joint-pain",
+            "dimage": "./assets/disease/disease-4.png",
+            "ddetail": "As we all know, nature has given us an invaluable resource in the form of plants. In form of herbal remedies, they help us get rid of various ailments. Basically Ayurveda is all about testing the valuable properties of these herbs in treating various diseases. We can also say that Ayurveda is the science which has helped human beings stay away from diseases, over so many centuries."
+        },
+        {
+            "id": "8",
+            "dname": "Piles",
+            "durl": "/piles",
+            "dimage": "./assets/disease/piles-1.jpg",
+            "ddetail": "Ayurvedic approaches to hemorrhoid treatment are considered holistic. People experiencing hemorrhoids who want to try treating them with Ayurvedic medicine should expect herbal remedies, lifestyle changes, and possibly minimally invasive procedures as part of their treatment plan. <br>Your Ayurvedic practitioner will evaluate your overall health to determine your dominant dosha before making treatment suggestions. It’s recommended that you speak to your doctor for proper diagnosis and treatment approach."
+        },
+        {
+            "id": "9",
+            "dname": "Sex Problem",
+            "durl": "/sex-problem",
+            "dimage": "./assets/disease/disease-7.1.png",
+            "ddetail": "Sex is the medicine of multiple problems. Sex brings happiness, enjoyment and makes partners close to each other. Sex develops various kinds of hormones that help in maintaining both beauty and health. The quantity of endorphin hormone increases desire, The quantity of endorphin hormone increases during sex that is beneficial for beautiful, shiny and smooth skin. Estrogen hormone is a blessing to the body that offers amazing happiness. It increases desire, confidence and confidence."
+        },
+        {
+            "id": "10",
+            "dname": "Weight Gain",
+            "durl": "/weight-gain",
+            "dimage": "./assets/disease/Gain-Weight-banner.png",
+            "ddetail": "Everyone wants to have an attractive personality. A good personality contains muscular body which makes you different from the ordinary crowd. When you have an eye-catching personality, it improves your self-confidence also helps in achieving success. Especially if you are underweight, it impacts your confidence & as a final result also impacts your performance on personal & professional front."
+        },
+        {
+            "id": "11",
+            "dname": "Sharab Mukti",
+            "durl": "/sharab-mukti",
+            "dimage": "./assets/disease/disease-2.png",
+            "ddetail": "The Ayurveda herbal medicine for Alcohol addiction is safe and has no side effects. It is combination of many herbs. It is in powder form and packed in small sachets according to daily doses, give 1 sachet daily.<br>It can be given with or without the knowledge of the addicted person by mixing in any of the veg or non veg food item without changing the color or taste of that food item."
+        },
+        {
+            "id": "12",
+            "dname": "White Skin",
+            "durl": "/white-skin",
+            "dimage": "./assets/disease/disease-11.png",
+            "ddetail": "Vitiligo is a skin disorder characterized by the loss of normal skin color in patches. The rate and the extent of the color loss vary among different patients. Also, the progress of the disease can be highly unpredictable. The use of natural ayurveda remedies for vitiligo may help to control the extent of this disease and also prevent its progression."
+        },
+        {
+            "id": "13",
+            "dname": "Stone Problem",
+            "durl": "/stone-problem",
+            "dimage": "./assets/disease/disease-14.png",
+            "ddetail": "Causes. The leading cause of kidney stones is a lack of water in the body. ... Medical conditions such as Crohn's disease, urinary tract infections, renal tubular acidosis, hyperparathyroidism, medullary sponge kidney, and Dent's disease increase the risk of kidney stones."
+        }
+    ]
+}
